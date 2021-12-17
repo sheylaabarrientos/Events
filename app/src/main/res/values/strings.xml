@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Events</string>
+    <string name="back_button">back_button</string>
+    <string name="events">Eventos</string>
 </resources>
