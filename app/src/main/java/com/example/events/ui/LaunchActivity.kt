@@ -1,4 +1,4 @@
-package com.example.events
+package com.example.events.ui
 
 import android.content.Intent
 import android.os.Bundle

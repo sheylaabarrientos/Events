@@ -2,6 +2,7 @@ package com.example.events.ui.adapter
 
 import android.content.Context
 import android.location.Address
+import android.location.Geocoder
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -14,10 +15,6 @@ import com.example.events.domain.EventsItem
 import kotlinx.android.synthetic.main.item_events_list.view.*
 import java.text.SimpleDateFormat
 import java.util.*
-import android.location.Geocoder
-import java.lang.Exception
-import java.lang.StringBuilder
-
 
 class EventAdapter(
     val context: Context,
@@ -99,4 +96,3 @@ private fun String.dateFormatter(): String {
     val format = SimpleDateFormat("dd.MM.yyyy")
     return format.format(date)
 }
-

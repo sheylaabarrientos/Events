@@ -1,4 +1,4 @@
-package com.example.events
+package com.example.events.ui
 
 import android.content.Intent
 import android.os.Bundle
@@ -11,10 +11,6 @@ import com.example.events.domain.EventsItem
 import com.example.events.ui.adapter.EventAdapter
 import com.example.events.ui.utils.AutoScroll
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.item_events_details_list.*
-import kotlinx.android.synthetic.main.item_events_details_list.view.*
-import kotlinx.android.synthetic.main.item_events_list.*
-import kotlinx.android.synthetic.main.splash_screen.*
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

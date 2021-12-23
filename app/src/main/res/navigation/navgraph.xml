@@ -13,7 +13,7 @@
     <action android:id="@+id/action_global_eventFragment" app:destination="@id/eventFragment" />
     <activity
         android:id="@+id/mainActivity"
-        android:name="com.example.events.MainActivity"
+        android:name="com.example.events.ui.MainActivity"
         android:label="MainActivity" />
     <fragment
         android:id="@+id/testeFragment"

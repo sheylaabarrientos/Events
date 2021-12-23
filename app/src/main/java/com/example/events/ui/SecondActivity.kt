@@ -1,4 +1,4 @@
-package com.example.events
+package com.example.events.ui
 
 import android.os.Bundle
 import android.widget.Toast
@@ -26,7 +26,7 @@ class SecondActivity : AppCompatActivity() {
     }
 
     private fun createUser() {
-        val user = User("", email_editText.text.toString(), name_editText.text.toString())
+        val user = User(id_editText.text.toString(), name_editText.text.toString(), email_editText.text.toString())
         viewModel.creatNewUser(user)
     }
 

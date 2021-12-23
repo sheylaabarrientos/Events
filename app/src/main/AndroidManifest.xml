@@ -14,9 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Events"
         tools:ignore="AllowBackup">
-        <activity android:name="com.example.events.SecondActivity" />
+        <activity android:name="com.example.events.ui.SecondActivity" />
         <activity
-            android:name="com.example.events.MainActivity"
+            android:name="com.example.events.ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,7 +24,7 @@
             </intent-filter>
         </activity>
     <activity
-        android:name="com.example.events.LaunchActivity"
+        android:name="com.example.events.ui.LaunchActivity"
         android:theme="@style/LaunchTheme"
         android:exported="true" >
         <intent-filter>

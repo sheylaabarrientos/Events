@@ -6,7 +6,8 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".SecondActivity">
+        tools:context=".ui.SecondActivity">
+
 
         <TextView
             android:id="@+id/titleTextView"
@@ -21,24 +22,40 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <androidx.appcompat.widget.AppCompatEditText
-            android:id="@+id/name_editText"
+        <EditText
+            android:id="@+id/id_editText"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:fontFamily="@font/gilroy_regular"
             android:layout_marginTop="@dimen/margin_32"
+            android:layout_marginHorizontal="@dimen/margin_16"
+            android:hint="Digite o número do evento..."
+            android:inputType="number"
+            android:maxEms="1"
+            android:padding="@dimen/margin_8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
+
+        <EditText
+            android:id="@+id/name_editText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/gilroy_regular"
+            android:layout_marginTop="@dimen/margin_16"
             android:layout_marginHorizontal="@dimen/margin_16"
             android:hint="Digite seu nome..."
             android:inputType="textPersonName"
             android:padding="@dimen/margin_8"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
+            app:layout_constraintTop_toBottomOf="@+id/id_editText" />
 
-        <androidx.appcompat.widget.AppCompatEditText
+        <EditText
             android:id="@+id/email_editText"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_marginTop="@dimen/margin_16"
             android:layout_marginHorizontal="@dimen/margin_16"
             android:fontFamily="@font/gilroy_regular"
             android:hint="Digite seu e-mail..."
