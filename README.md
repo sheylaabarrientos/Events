@@ -1,8 +1,8 @@
 <img src="https://github.com/sheylaabarrientos/Events/blob/main/events_app.png">
 
-Vídeo:
+Vídeo: https://youtu.be/57igH1NQQlo
 
-APK: https://drive.google.com/file/d/1hmCsJQJGlwqe5XOiUwEclYWdJe7vNH1P/view?usp=sharing
+APK: https://drive.google.com/file/d/1VVg0GyxnMCD8OEhjKyVtVu1fPWLkdXF3/view?usp=sharing
 
 # Objetivo
 - Criar uma aplicativo que consuma uma REST API e exiba uma listagem de eventos;
