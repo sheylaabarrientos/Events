@@ -1,4 +1,4 @@
-package com.example.events.ui
+package com.example.events.ui.model
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

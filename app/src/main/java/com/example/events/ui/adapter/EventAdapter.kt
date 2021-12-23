@@ -63,8 +63,6 @@ class EventAdapter(
         holder.date.text = dataSet[position].date.dateFormatter()
         holder.longitude.text = dataSet[position].longitude.toString()
         holder.latitude.text = dataSet[position].latitude.toString()
-
-//        holder.people?.text = dataSet[position].people.toString()
     }
 
     override fun getItemCount() = dataSet.size
@@ -80,12 +78,12 @@ private fun Double.getAdress(context: Context, latLng: EventsItem) {
     if (addresses.isNotEmpty()) {
         address = addresses[0]
         fulladdress =
-            address.getAddressLine(0) // If any additional address line present than only, check with max available address lines by getMaxAddressLineIndex
+            address.getAddressLine(0)
         var city = address.getLocality()
         var state = address.getAdminArea()
         var country = address.getCountryName()
         var postalCode = address.getPostalCode()
-        var knownName = address.getFeatureName() // Only if available else return NULL
+        var knownName = address.getFeatureName()
     } else {
         fulladdress = "Location not found"
     }

@@ -2,5 +2,4 @@
     <string name="app_name">Eventos</string>
     <string name="back_button">back_button</string>
     <string name="events">Eventos</string>
-    <string name="login_error_toast">Imagem indisponível</string>
 </resources>

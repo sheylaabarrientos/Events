@@ -21,8 +21,8 @@
             tools:listitem="@layout/item_events_list" />
 
         <androidx.appcompat.widget.AppCompatButton
-            style="@style/buttonsStyle"
             android:id="@+id/check_in_button"
+            style="@style/buttonsStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/margin_16"
@@ -33,14 +33,6 @@
             android:text="Check In"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
-
-        <!--    <ProgressBar-->
-        <!--        android:layout_width="wrap_content"-->
-        <!--        android:layout_height="wrap_content"-->
-        <!--        android:layout_below="@id/titleEvents"-->
-        <!--        android:layout_centerHorizontal="true"-->
-        <!--        android:layout_marginTop="@dimen/margin_24"-->
-        <!--        android:indeterminateTint="@color/gray" />-->
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

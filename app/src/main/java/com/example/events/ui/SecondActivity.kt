@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.example.events.databinding.SecondActivityBinding
 import com.example.events.domain.User
+import com.example.events.ui.model.MainAcitivityViewModel
 import kotlinx.android.synthetic.main.second_activity.*
 
 class SecondActivity : AppCompatActivity() {

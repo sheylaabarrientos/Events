@@ -106,17 +106,16 @@
         <TextView
             android:id="@+id/description_textView"
             style="@style/textStyleDescription"
-            android:shadowRadius="10"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/margin_16"
             android:layout_marginTop="@dimen/margin_16"
+            android:shadowRadius="10"
             android:text="Descrição"
             android:textSize="@dimen/tiny_tinyText_14"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/price_textView"
             app:layout_constraintWidth_percent="0.90" />
-
 
         <TextView
             android:id="@+id/latitude_textView"
@@ -142,5 +141,5 @@
             app:layout_constraintStart_toEndOf="@+id/latitude_textView"
             app:layout_constraintTop_toTopOf="@+id/latitude_textView" />
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

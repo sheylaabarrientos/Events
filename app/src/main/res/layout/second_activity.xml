@@ -8,7 +8,6 @@
         android:layout_height="match_parent"
         tools:context=".ui.SecondActivity">
 
-
         <TextView
             android:id="@+id/titleTextView"
             style="@style/textStyleTitlePrimary"

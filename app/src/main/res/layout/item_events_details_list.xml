@@ -17,8 +17,8 @@
             android:id="@+id/event_details_image"
             android:layout_width="match_parent"
             android:layout_height="250dp"
-            android:contentDescription="event_image"
             android:background="@color/blue"
+            android:contentDescription="event_image"
             android:scaleType="centerCrop"
             app:layout_constraintCircleRadius="32sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -53,21 +53,21 @@
             style="@style/textStyleSubtitle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            app:layout_constraintWidth_percent="0.90"
-            android:layout_marginTop="@dimen/margin_16"
             android:layout_marginStart="@dimen/margin_16"
+            android:layout_marginTop="@dimen/margin_16"
             android:text="Descrição"
             android:textSize="@dimen/tiny_tinyText_14"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
+            app:layout_constraintTop_toBottomOf="@+id/titleTextView"
+            app:layout_constraintWidth_percent="0.90" />
 
         <TextView
             android:id="@+id/date_textView"
             style="@style/textStyleSubtitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_16"
             android:layout_marginStart="@dimen/margin_16"
+            android:layout_marginTop="@dimen/margin_16"
             android:text="Data"
             android:textSize="@dimen/tiny_tinyText_14"
             app:layout_constraintStart_toStartOf="parent"
@@ -83,15 +83,15 @@
             android:textSize="@dimen/tiny_tinyText_14"
             app:layout_constraintBottom_toBottomOf="@+id/date_textView"
             app:layout_constraintStart_toEndOf="@+id/date_textView"
-            app:layout_constraintTop_toTopOf="@+id/date_textView"  />
+            app:layout_constraintTop_toTopOf="@+id/date_textView" />
 
         <TextView
             android:id="@+id/latitude_textView"
             style="@style/textStyleSubtitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_16"
             android:layout_marginStart="@dimen/margin_16"
+            android:layout_marginTop="@dimen/margin_16"
             android:text="Latitude"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/date_textView" />
@@ -106,21 +106,6 @@
             app:layout_constraintBottom_toBottomOf="@+id/latitude_textView"
             app:layout_constraintStart_toEndOf="@+id/latitude_textView"
             app:layout_constraintTop_toTopOf="@+id/latitude_textView" />
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recycler_peoples"
-            android:layout_width="match_parent"
-            android:layout_height="270dp"
-            android:orientation="vertical"
-            android:paddingBottom="@dimen/margin_24"
-            android:layout_marginHorizontal="@dimen/margin_16"
-            android:layout_marginTop="@dimen/margin_32"
-            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/latitude_textView"
-            tools:listitem="@layout/item_peoples" />
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
