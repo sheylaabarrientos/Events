@@ -13,7 +13,7 @@ interface ApiInterface {
     @GET("events")
     fun getData(): Call<List<EventsItem>>
 
-    @POST("peoples")
+    @POST("checkin")
     @Headers("Accept/application/json", "Content-Type:application/json")
     fun createUser(@Body params: User): Call<UserResponse>
 }
