@@ -1,7 +1,7 @@
 package com.example.events.domain
 
 data class EventsItem(
-    val date: Long,
+    val date: String,
     val description: String,
     val id: String,
     val image: String,

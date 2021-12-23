@@ -10,4 +10,5 @@
     <dimen name="smallText_18">18sp</dimen>
     <dimen name="mediumText_24">24sp</dimen>
     <dimen name="bigText_32">32sp</dimen>
+    <dimen name="dp_19">19dp</dimen>
 </resources>

@@ -7,13 +7,9 @@
 
     <fragment
         android:id="@+id/eventFragment"
-        android:name="com.example.events.ui.fragments.EventFragment"
+        android:name="com.example.events.ui.fragments.EventDetailsFragment"
         android:label="EventFragment"
-        tools:layout="@layout/event_fragment">
-        <action
-            android:id="@+id/action_eventFragment_to_testeFragment"
-            app:destination="@id/testeFragment" />
-    </fragment>
+        tools:layout="@layout/event_fragment"/>
     <action android:id="@+id/action_global_eventFragment" app:destination="@id/eventFragment" />
     <activity
         android:id="@+id/mainActivity"
