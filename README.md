@@ -1,3 +1,9 @@
+<img src="https://github.com/sheylaabarrientos/Events/blob/main/events_app.png">
+
+Vídeo:
+
+APK: 
+
 # Objetivo
 - Criar uma aplicativo que consuma uma REST API e exiba uma listagem de eventos;
 - Cada item da lista deve permitir acesso à detalhes do evento;
